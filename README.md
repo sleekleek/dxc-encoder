@@ -20,3 +20,6 @@ You are to write an encoder that takes in a plaintext and encode it to another o
 The logic of the encoding / decoding is:
 
 Choose any character in the reference table as the offset. The first character of the encoded message will be the offset character. Any character not in the reference table will mapped back to the same character.
+
+## Implementation
+Makes use of OOP concepts by storing the offset character and initialising the appropriate shift table for reference. 
